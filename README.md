@@ -8,8 +8,7 @@ Spring Boot: Framework para construção da aplicação.
 JPA (Jakarta Persistence API): Para mapeamento objeto-relacional.
 Spring Data JPA: Para facilitar a manipulação dos dados no banco de dados.
 Lombok: Para reduzir o código boilerplate.
-H2 Database: Banco de dados em memória para testes (pode ser substituído por outro banco de dados de sua escolha).
-
+MySQk: Banco de dados relacional.
 
 <h4>Estrutura do Projeto</h4>
 

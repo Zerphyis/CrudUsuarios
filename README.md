@@ -1,8 +1,8 @@
-  Desafio Polvo
+<h2>Desafio Polvo</h2>
 
 Este é um projeto de gerenciamento de usuários e postagens utilizando Spring Boot com JPA (Java Persistence API). O sistema permite a criação, atualização, listagem e remoção de usuários e postagens.
 
-  Tecnologias Utilizadas
+<h4>Tecnologias Utilizadas</h4>
 
 Spring Boot: Framework para construção da aplicação.
 JPA (Jakarta Persistence API): Para mapeamento objeto-relacional.
@@ -11,7 +11,7 @@ Lombok: Para reduzir o código boilerplate.
 H2 Database: Banco de dados em memória para testes (pode ser substituído por outro banco de dados de sua escolha).
 
 
-  Estrutura do Projeto
+<h4>Estrutura do Projeto</h4>
 
 Pacote home.desafiopolvo.Usuario
 
@@ -35,15 +35,15 @@ ServicePost: Classe de serviço responsável pelas operações CRUD relacionadas
 
 RepositoryPost: Interface do repositório para a entidade Post, que estende JpaRepository.
 
-   Como Rodar o Projeto
+  
 
-Pré-requisitos
+<h4> Pré-requisitos</h4>
 JDK 17 ou superior
 Maven
 IDE (IntelliJ, Eclipse, etc.)
 
 
-Endpoints
+<h4>Endpoints</h4>
 
 Usuários
 GET /usuarios: Lista todos os usuários.

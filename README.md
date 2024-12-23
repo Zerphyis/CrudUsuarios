@@ -1,14 +1,20 @@
-Desafio Polvo
+  Desafio Polvo
+
 Este é um projeto de gerenciamento de usuários e postagens utilizando Spring Boot com JPA (Java Persistence API). O sistema permite a criação, atualização, listagem e remoção de usuários e postagens.
 
-Tecnologias Utilizadas
+  Tecnologias Utilizadas
+
 Spring Boot: Framework para construção da aplicação.
 JPA (Jakarta Persistence API): Para mapeamento objeto-relacional.
 Spring Data JPA: Para facilitar a manipulação dos dados no banco de dados.
 Lombok: Para reduzir o código boilerplate.
 H2 Database: Banco de dados em memória para testes (pode ser substituído por outro banco de dados de sua escolha).
-Estrutura do Projeto
+
+
+  Estrutura do Projeto
+
 Pacote home.desafiopolvo.Usuario
+
 Usuario: Entidade que representa um usuário do sistema, com campos para email, nome e cpf. A classe utiliza anotações do JPA para persistir dados no banco.
 
 RepositoryUsuarios: Interface do repositório que estende JpaRepository, facilitando a comunicação com o banco de dados.
@@ -20,6 +26,7 @@ ServiceUsuarios: Classe de serviço responsável pelas operações CRUD relacion
 ValidarExepction: Classe personalizada para lançar exceções quando ocorrerem falhas específicas, como um usuário não encontrado.
 
 Pacote home.desafiopolvo.Post
+
 Post: Entidade que representa uma postagem feita por um usuário. A classe possui campos como titulo, conteudo, horapublica e autor.
 
 DadosPost: Record que contém os dados de uma postagem, como titulo, conteudo, autor e dataPublicacao.
@@ -28,30 +35,16 @@ ServicePost: Classe de serviço responsável pelas operações CRUD relacionadas
 
 RepositoryPost: Interface do repositório para a entidade Post, que estende JpaRepository.
 
-Como Rodar o Projeto
+   Como Rodar o Projeto
+
 Pré-requisitos
 JDK 17 ou superior
 Maven
 IDE (IntelliJ, Eclipse, etc.)
-Passos
-Clone o repositório:
 
-bash
-Copiar código
-git clone https://github.com/usuario/desafio-polvo.git
-Navegue até o diretório do projeto:
-
-bash
-Copiar código
-cd desafio-polvo
-Compile e rode a aplicação com o Maven:
-
-bash
-Copiar código
-mvn spring-boot:run
-A aplicação estará disponível em http://localhost:8080.
 
 Endpoints
+
 Usuários
 GET /usuarios: Lista todos os usuários.
 POST /usuarios: Cria um novo usuário.
@@ -62,9 +55,9 @@ GET /posts: Lista todas as postagens.
 POST /posts: Cria uma nova postagem.
 PUT /posts/{id}: Atualiza uma postagem existente.
 DELETE /posts/{id}: Deleta uma postagem.
+
 Exceções
 O sistema lança exceções personalizadas quando ocorrem erros, como ValidarExepction, para garantir que as falhas sejam informadas adequadamente ao usuário.
 
-Contribuições
-Sinta-se à vontade para contribuir com melhorias, correções ou novos recursos. Para isso, faça um fork do projeto, crie uma branch para a modificação e envie um pull request.
-
+Link do repositorio do desafio:
+https://github.com/devssa/no-pain-no-brain/tree/master/Polvo/Est%C3%A1gio%20Backend

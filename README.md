@@ -45,19 +45,46 @@ IDE (IntelliJ, Eclipse, etc.)
 
 <h4>Endpoints</h4>
 
-Usuários
-GET /usuarios: Lista todos os usuários.
-POST /usuarios: Cria um novo usuário.
-PUT /usuarios/{id}: Atualiza um usuário existente.
-DELETE /usuarios/{id}: Deleta um usuário.
-Postagens
-GET /posts: Lista todas as postagens.
-POST /posts: Cria uma nova postagem.
-PUT /posts/{id}: Atualiza uma postagem existente.
-DELETE /posts/{id}: Deleta uma postagem.
+<h2>Usuários</h2>
 
-Exceções
+<strong>GET /usuarios/buscar: Lista todos os usuários.
+![ListUsuarios](https://github.com/user-attachments/assets/a6f36386-2aac-4ad7-b17c-af8b70c44c29)
+<br>
+<br>
+<strong>POST /usuarios/adicionar: Cria um novo usuário.
+![AddUsuarios](https://github.com/user-attachments/assets/985567b3-13eb-4fe4-a563-140f392f8884)
+<br>
+<br>
+<strong>PUT /usuarios/atualizar/{id}: Atualiza um usuário existente.
+![AttUsusarios](https://github.com/user-attachments/assets/9cc7d493-62ea-48ec-a229-1915e204fafd)
+<br>
+<br>
+<strong>DELETE /usuarios/deletar/{id}: Deleta um usuário.
+![DellUsuarios](https://github.com/user-attachments/assets/a9629820-1a1e-4270-a010-0e8322aab868)
+<br>
+<br>
+<h2> Postagens </h2>
+
+<strong> GET /posts/buscar: Lista todas as postagens.
+![ListPost](https://github.com/user-attachments/assets/7da623dd-3df9-4694-9bc7-4f20ac29d408)
+<br>
+<br>
+<strong> POST /posts/adicionar: Cria uma nova postagem.
+![AddPost](https://github.com/user-attachments/assets/1c56f36a-6bd2-415f-8219-679cadb44db0)
+<br>
+<br>
+<strong> PUT /posts/atualizar/{id}: Atualiza uma postagem existente.
+![AttPost](https://github.com/user-attachments/assets/9b63fe12-7510-47e0-a02f-1edb372222e2)
+<br>
+<br>
+<strong>DELETE /posts/deletar/{id}: Deleta uma postagem.
+
+![DellPost](https://github.com/user-attachments/assets/18142ffe-2f59-4a76-9fd8-b30394b45d79)
+<br>
+<br>
+<h4>Exceções</h4>
 O sistema lança exceções personalizadas quando ocorrem erros, como ValidarExepction, para garantir que as falhas sejam informadas adequadamente ao usuário.
 
-Link do repositorio do desafio:
+
+<h4>Link do repositorio do desafio:</h4>
 https://github.com/devssa/no-pain-no-brain/tree/master/Polvo/Est%C3%A1gio%20Backend
